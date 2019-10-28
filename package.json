@@ -1,0 +1,47 @@
+{
+  "name": "@tanglemesh/api-client.js",
+  "version": "1.0.0",
+  "description": "A simple lightweight api client for using the tangleMesh:api with authentification.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangleMesh/api-client.js.git"
+  },
+  "keywords": [
+    "IOTA",
+    "tangle",
+    "DLT",
+    "api",
+    "auth",
+    "client",
+    "api-client",
+    "tanglemesh"
+  ],
+  "author": "tangleMesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tangleMesh/api-client.js/issues"
+  },
+  "homepage": "https://github.com/tangleMesh/api-client.js#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "axios": "^0.19.0",
+    "core-js": "^3.3.4",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "babel-preset-minify": "^0.5.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
