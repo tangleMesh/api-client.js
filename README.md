@@ -12,8 +12,8 @@ To use this package, you can simply import the `api-client.js` and initialize a 
     import ApiClient from "@tanglemesh/api-client.js";
     
     const apiClient = new ApiClient ({
-        apiIdentifier: "c004b9b3-1d18-46c4-b9be-02b924e581a1",
-        apiSecret: "SHSMDHRP9SJAN9NSDKAKJ9…",
+        apiIdentifier: "7DE635ECF529629BA113571D2A288598",
+        apiSecret: "A4BEF4E7CE564EDD2BD8141F1D6546S567F659DC8F30D9918B2F17C387BD7B60",
     });
 
     await apiClient.request (…);
