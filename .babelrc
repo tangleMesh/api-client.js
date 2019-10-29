@@ -13,7 +13,7 @@
           },
           "forceAllTransforms": true,
           "modules": "commonjs"
-        },
+        }
       ],
       "minify"
     ]
