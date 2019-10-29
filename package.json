@@ -1,6 +1,6 @@
 {
   "name": "@tanglemesh/api-client.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple lightweight api client for using the tangleMesh:api with authentification.",
   "main": "index.js",
   "scripts": {

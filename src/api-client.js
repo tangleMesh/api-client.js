@@ -6,7 +6,7 @@ module.exports = class ApiClient {
 
     static defaultCallback (err, result) {
         if (err) {
-            throw new Error (err.message);
+            throw new Error ((err instanceof Error) ? err.message : err);
         }
         return result;
     }
@@ -20,7 +20,7 @@ module.exports = class ApiClient {
     }) {
         //Set the ApiAuthentificator directly
         if (options.apiAuthentificator !== null && options.apiAuthentificator instanceof ApiAuthentificator) {
-            this.apiAuthentificator = this.apiAuthentificator;
+            this.apiAuthentificator = options.apiAuthentificator;
         } else {
             //Use the options to create a new ApiAuthentificator
             this.apiAuthentificator = new ApiAuthentificator (
