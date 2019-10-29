@@ -109,4 +109,4 @@ For more examples just have a look on the [/examples](/examples) directory.
 
 Run an example with the command:
 
-    npx babel-node examples/get-api-status.example.js
+   node examples/get-api-status.example.js

@@ -1,11 +1,8 @@
 {
   "name": "@tanglemesh/api-client.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple lightweight api client for using the tangleMesh:api with authentification.",
-  "main": "dist/api-client.bundle.js",
-  "files": [
-    "dist"
-  ],
+  "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node index.js",
     "build": "webpack"

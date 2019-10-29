@@ -1,7 +1,7 @@
-import jsonwebtoken from "jsonwebtoken";
-import Configuration from "../config";
+const jsonwebtoken = require ("jsonwebtoken");
+const Configuration = require ("../config");
 
-export default class ApiAuthentificator {
+module.exports = class ApiAuthentificator {
 
     constructor (apiIdentifier, apiSecret, applicationName = "@tangleMesh/api-client.js") {
         if (typeof apiIdentifier !== "string" || apiIdentifier.length !== 32) {

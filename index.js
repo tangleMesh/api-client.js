@@ -1,5 +1,5 @@
-import ApiClient from "./src/api-client.js";
-import ApiAuthentificator from "./src/api-authentificator";
+const ApiClient = require ("./src/api-client.js");
+const ApiAuthentificator = require ("./src/api-authentificator");
 
 module.exports = {
     ApiClient,

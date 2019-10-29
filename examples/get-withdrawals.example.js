@@ -1,4 +1,4 @@
-import { ApiClient } from "../index";
+const { ApiClient } = require ("../index");
 
 (async () => {
     //Do request

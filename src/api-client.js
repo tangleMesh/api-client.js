@@ -1,8 +1,8 @@
-import axios from "axios";
-import ApiAuthentificator from "./api-authentificator";
-import Configuration from "../config";
+const axios = require ("axios");
+const ApiAuthentificator = require ("./api-authentificator");
+const Configuration = require ("../config");
 
-export default class ApiClient {
+module.exports = class ApiClient {
 
     static defaultCallback (err, result) {
         if (err) {

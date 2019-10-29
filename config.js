@@ -1,4 +1,4 @@
-export default class Configuration {
+module.exports = class Configuration {
 
     static get API_URL () {
         return "https://api.tangle-mesh.io";
