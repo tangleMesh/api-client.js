@@ -6,7 +6,7 @@ module.exports = class ApiClient {
 
     static defaultCallback (err, result) {
         if (err) {
-            throw new Error ((err instanceof Error) ? err.message : err);
+            throw new Error ((err instanceof Error) ? err.message : (typeof err === "string" ? err : JSON.stringify (err)));
         }
         return result;
     }
