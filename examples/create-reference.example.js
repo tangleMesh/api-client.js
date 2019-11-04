@@ -20,5 +20,5 @@ const { ApiClient } = require ("../index");
         }
     );
 
-    console.log ("My withdrawals:", newReference);
+    console.log ("My new Deposit-Details:", newReference);
 })();
